@@ -1,0 +1,41 @@
+{
+  "name": "ptondereau/laravel-ups-api",
+  "description": "A small Laravel's wrapper for the PHP UPS API library",
+  "keywords": ["laravel", "framework", "UPS", "Laravel UPS Api", "Laravel-Ups-Api", "Pierre Tondereau", "Ptondereau"],
+  "require": {
+    "php": "^7.1.3",
+    "illuminate/contracts": "^5.5|^6.0|^7.0",
+    "illuminate/support": "^5.5|^6.0|^7.0",
+    "gabrielbull/ups-api": "^0.8"
+  },
+  "require-dev": {
+    "graham-campbell/analyzer": "^2.1",
+    "graham-campbell/testbench": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ptondereau\\LaravelUpsApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ptondereau\\Tests\\LaravelUpsApi\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pierre Tondereau",
+      "email": "pierre.tondereau@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ptondereau\\LaravelUpsApi\\UpsApiServiceProvider"
+      ]
+    }
+  }
+}

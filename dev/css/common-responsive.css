@@ -1,0 +1,87 @@
+/*RESPONSIVE CSS*/
+
+/*MAX-WIDTH 1199PX*/
+@media(max-width: 1199px){
+
+}
+
+/*MAX-WIDTH 991PX*/
+@media(max-width: 991px){
+	.card-body.event-types-wrapper{
+    	height: auto;
+	}
+}
+
+/*MAX-WIDTH 767PX*/
+@media(max-width: 767px){
+	.pcoded-wrapper .content .ex1 .step1 {
+	    max-height: initial;
+	    height: auto;
+	}
+	.card.talk-card-event .first-user-form {
+	    max-height: initial;
+	    padding: 0;
+	    overflow-y: unset;
+	}
+	.pcoded-wrapper .cstm-btn {
+	    font-size: 13px;
+	    padding: 10px 30px;
+	}
+	.content-main-wrap .nav-link {
+	    padding: 10px 15px;
+	}
+	.content-main-wrap .nav-tabs .nav-item {
+	    margin-top: 8px;
+	}
+	/*event*/
+	.content-main-wrap.event-content .card-media-object-container {
+	    width: 100%;
+	}
+	.content-main-wrap.event-content .card-media-body {
+		width: 100%;
+		height: auto;
+	}
+	.content-main-wrap.event-content .card-media-body-supporting-bottom-reveal span.card-media-body-supporting-bottom-text.subtle {
+    	width: calc(100% - 0px);
+	}
+	.content-main-wrap.event-content .card-media-body-supporting-bottom {
+	    position: relative;
+	    bottom: unset;
+	    left: unset;
+	    opacity: 1;
+	    padding: 15px 0;
+	    flex-wrap: wrap;
+	}
+	.content-main-wrap.event-content .card-media-body-top .subtle {
+	    width: calc(100% - 0px);
+	}
+	/*event end*/
+
+}
+/*MAX-WIDTH 575PX*/
+@media(max-width: 575px){
+	.pcoded-wrapper .sm-countdown-wrap .count-down-timer #timer div {
+   		height: 45px;
+   		width: 45px;
+	    font-size: 14px;
+	}
+	.count-down-timer-new li span {
+	    font-size: 11px;
+	} 
+	.cls-titles h2 {
+	    font-size: 18px!important;
+	    padding: 10px 0 15px;
+	}
+	 .cls-titles {
+	    padding: 15px 15px;
+	}
+	.cls-title #event-title, .cls-title #event-title2 {
+	    font-size: 22px;
+	}
+	.search-bar .form-group {
+	    width: 100%;
+	    max-width: 100%;
+	}
+}
+
+/*RESPONSIVE END CSS*/

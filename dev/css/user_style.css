@@ -1,0 +1,277 @@
+.cls-preview {
+    height: 843px;
+    text-align: center;
+}
+.cls-title {
+    background-color: #f4f7fa;
+}
+#event-title {
+    color: #35486b;
+}
+#days {
+  font-size: 100px;
+  color: #db4844;
+}
+#hours {
+  font-size: 100px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 100px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+.cls-title #event-title, .cls-title #event-title2 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px 0 30px;
+}
+#event-long_description {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.card-event-timing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+.card-event-timing .end_date, .card-event-timing #event-end_time {
+    padding-left: 15px;
+}
+.sm-countdown-wrap .count-down-timer #timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sm-countdown-wrap .count-down-timer #timer div {
+    background: #35486b;
+    border-radius: 9%;
+    height: 80px;
+    width: 80px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    margin: 0 5px;
+    border: 1px solid #b8b8b8;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count-down-timer-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.count-down-timer-new li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    margin: 0 5px;
+}
+.cls-titles {
+    padding: 20px 25px;
+}
+.cls-titles h2 {
+    font-size: 32px;
+    padding: 10px 0 30px;
+    font-weight: 600;
+    color: #35486b;
+}
+.card.talk-card-event .first-user-form {
+    max-height: 600px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.ex1 .step1 {
+  max-height: 491px;
+  margin-bottom: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.step2-form {
+    margin-top: 35px;
+    height: 380px;
+    overflow-y: scroll;
+}
+.step2-form label {
+    font-size: 18px;
+    color: #000;
+}
+.step2-form label span {
+    color: red;
+}
+.count-down-timer-new li span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.yellow-title {
+    background: #3f4d67;
+}
+.yellow-title #event-title {
+    color: #fff;
+}
+.card-event-timing h5 {
+    color: #fff;
+    font-weight: 700;
+}
+.radio-grp li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.radio-grp li h5 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.radio-grp li input {
+    margin-right: 10px;
+}
+/*210913*/
+.Order-Summary-head h2 {
+    font-size: 22px;
+    color: #35486b;
+}
+.Order-Summary-inner-head {
+    margin: 15px 0;
+}
+.Order-Summary-inner-head-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.Order-Summary-wrapper h5 {
+    color: #35486b;
+    font-size: 19px;
+    margin: 0;
+}
+.animated.step3 {
+    width: 100%;
+}
+.sub-total div {
+    display: flex;
+    justify-content: space-between;
+}
+.Order-Summary-inner-head-1 h5 {
+    color: #fff;
+}
+.Order-Summary-inner-head-1 {
+    background: #35486b;
+    padding: 5px 10px;
+}
+.admission-item {
+  display: flex;
+  justify-content: space-between;
+}
+.admission-item h5 {
+    font-size: 15px!important;
+}
+.sub-total-inner h5 {
+    font-size: 15px;
+}
+.payment-wrapper {
+    margin: 30px 0 20px;
+}
+.payment-method-div {
+  display: block;
+}
+.multi_step_form.haveFiveSteps.haveThreeSteps #msform #progressbar li {
+    width: calc(100%/3);
+}
+.multi_step_form.haveFiveSteps.haveTwoSteps #msform #progressbar li {
+    width: calc(100%/2);
+}
+.delete-row.cstm-btn.solid-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cstm-label {
+  display: block;
+}
+/*210913 end*/
+/*210920*/
+.cls-title.yellow-title {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 15px;
+}
+.cls-title.yellow-title:After {
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1
+}
+.yellow-title {
+   /* background: url(https://eplame.com/dev/images/event-bg.jpg);*/
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    position: relative;
+}
+.cls-preview_content p {
+  color: #fff!important;
+}
+.cls-preview_content h2 {
+    padding-bottom: 0!important;
+}
+.cls-title-header .quickview__item-total, .cls-title-header .quickview__item-description i,
+.ls-title-header .quickview__item-description {
+    color: #fff;
+}
+.cls-title-header .main-header__welcome-title.text-light {
+    font-size: 28px;
+}
+.card-media.animated .cls-preview_content h2 {
+    color: #fff;
+}
+.card-media.animated.cls-preview.step2 {
+    height: auto;
+}
+.card-media.animated.cls-preview.step2 {
+    margin-top: 35px;
+    height: 428px;
+    overflow-y: auto;
+}
+.category-checkboxes label {
+  word-break: break-all;
+}
+.pick-color-field-wrap img {
+    position: absolute;
+}
+.cstm-theme-color-wrap {
+  width: 98px;
+}
+/*210920 end*/
+#payment a {
+    margin: 5px;
+}
+#payment {
+    margin-top: 10px;
+}
+.animated.step2 {
+    width: 100%;
+}
+/*210929*/
+.event-dscptn {
+    padding: 15px;
+}
+.event-dscptn p {
+    font-size: 15px;
+    color: #000;
+    text-align: left;
+}
+/*210929 end*/
